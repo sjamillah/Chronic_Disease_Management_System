@@ -98,9 +98,11 @@ Techniques like Early Stopping, L2 regularization, and optimized learning rates 
 ### Running the Notebook
 1. Open the notebook in Google Colab.
 2. Ensure all necessary dependencies (tensorFlow, scikit-learn, numpy, matplotlib, pandas, joblib) are installed:
-   <pre> ```python
+   <pre>
+   ```
    !pip install tensorflow scikit-learn seaborn matplotlib joblib
-   ``` </pre>
+   ```
+   </pre>
 4. Run cells sequentially for data preprocessing, model training, and evaluation.
 ### Loading the best model
 ```python
