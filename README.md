@@ -12,6 +12,7 @@ The dataset used in this project consists of both structured and unstructured da
 ## Discussion of Findings
 ### Training Instance Table
 | **Training Instance** | **Optimizer** | **Regularizer** | **Epochs** | **Early Stopping** | **Number of Layers** | **Learning Rate** | **Accuracy** | **F1 Score** | **Precision** | **Recall** | **Loss** |
+|-----------------------|---------------|-----------------|------------|--------------------|----------------------|-------------------|--------------|--------------|---------------|------------|----------|
 | **Instance 1** | Default | None | 20 | No | 5 | 0.0 | 0.24 | Class(0): 0.00, Class(1): 0.42, Class(2): 0.08 | Class(0): 1.00, Class(1): 0.28, Class(2): 0.07 | Class(0): 0.00, Class(1): 0.89, Class(2): 0.09 | 1.21 |
 | **Instance 2** | Adam | L2 | 150 | Yes | 7 | 0.001 | 0.88 | Class(0): 0.97, Class(1): 0.78, Class(2): 0.57 | Class(0): 0.95, Class(1): 0.75, Class(2): 0.77 | Class(0): 0.99, Class(1): 0.82, Class(2): 0.45 | 0.39 |
 | **Instance 3** | SGD | L2 | 500 | Yes | 7 | 0.006 | 0.92 | Class(0): 0.96, Class(1): 0.82, Class(2): 0.85 | Class(0): 0.93, Class(1): 0.93, Class(2): 0.82 | Class(0): 1.00, Class(1): 0.74, Class(2): 0.90 | 0.44 |
