@@ -48,10 +48,10 @@ The dataset used in this project consists of both structured and unstructured da
 ### Training Instance Table
 | **Training Instance** | **Optimizer** | **Regularizer** | **Epochs** | **Early Stopping** | **Number of Layers** | **Learning Rate** | **Accuracy** | **F1 Score** | **Precision** | **Recall** | **Loss** |
 |-----------------------|---------------|-----------------|------------|--------------------|----------------------|-------------------|--------------|--------------|---------------|------------|----------|
-| **Instance 1** | Default | None | 20 | No | 7 | 0.0 | 0.24 | Class(0): 0.00, Class(1): 0.40, Class(2): 0.06 | Class(0): 0.00, Class(1): 0.26, Class(2): 0.07 | Class(0): 0.00, Class(1): 0.91, Class(2): 0.05 | 1.12 |
-| **Instance 2** | Adam | L2 | 150 | Yes | 7 | 0.001 | 0.92 | Class(0): 0.99, Class(1): 0.85, Class(2): 0.77 | Class(0): 0.98, Class(1): 0.85, Class(2): 0.77 | Class(0): 0.99, Class(1): 0.85, Class(2): 0.77 | 0.39 |
-| **Instance 3** | SGD | L2 | 500 | Yes | 7 | 0.006 | 0.91 | Class(0): 0.96, Class(1): 0.81, Class(2): 0.84 | Class(0): 0.93, Class(1): 0.93, Class(2): 0.80 | Class(0): 1.00, Class(1): 0.72, Class(2): 0.90 | 0.49 |
-| **Instance 4** | RMSprop | L2 | 200 | Yes | 7 | 0.001 | 0.97 | Class(0): 1.00, Class(1): 0.95, Class(2): 0.90 | Class(0): 1.00, Class(1): 0.95, Class(2): 0.90 | Class(0): 1.00, Class(1): 0.95, Class(2): 0.89 | 0.12 |
+| **Instance 1** | Default | None | 20 | No | 8 | 0.0 | 0.24 | Class(0): 0.00, Class(1): 0.40, Class(2): 0.06 | Class(0): 0.00, Class(1): 0.26, Class(2): 0.07 | Class(0): 0.00, Class(1): 0.91, Class(2): 0.05 | 1.12 |
+| **Instance 2** | Adam | L2 | 150 | Yes | 8 | 0.001 | 0.92 | Class(0): 0.99, Class(1): 0.85, Class(2): 0.77 | Class(0): 0.98, Class(1): 0.85, Class(2): 0.77 | Class(0): 0.99, Class(1): 0.85, Class(2): 0.77 | 0.39 |
+| **Instance 3** | SGD | L2 | 500 | Yes | 8 | 0.006 | 0.91 | Class(0): 0.96, Class(1): 0.81, Class(2): 0.84 | Class(0): 0.93, Class(1): 0.93, Class(2): 0.80 | Class(0): 1.00, Class(1): 0.72, Class(2): 0.90 | 0.49 |
+| **Instance 4** | RMSprop | L2 | 200 | Yes | 8 | 0.001 | 0.97 | Class(0): 1.00, Class(1): 0.95, Class(2): 0.90 | Class(0): 1.00, Class(1): 0.95, Class(2): 0.90 | Class(0): 1.00, Class(1): 0.95, Class(2): 0.89 | 0.12 |
 | **Instance 5** | SVM | C Parameter(1.0) | N/A | No | 1 | N/A | 0.94 | Class(0): 1.00, Class(1): 0.88, Class(2): 0.74 | Class(0): 1.00, Class(1): 0.86, Class(2): 0.77 | Class(0): 1.00, Class(1): 0.89, Class(2): 0.71 | 0.12 |
 ## Analysis of the Models' Results
 Performance of different models and configurations was judged by testing a variety of techniques of optimization, machine learning algorithms, and neural network architectures. The main metrics, such as accuracy, F1 score, precision, recall, and loss of every instance, were analyzed. The report shows the analysis of the results.
