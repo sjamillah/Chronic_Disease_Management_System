@@ -1,17 +1,17 @@
 # Chronic Disease Management System
 ## Table of Contents
-1. [Project Overview](#Project-Overview)
-2. [Problem Statement](Problem-Statement)
-3. [Features of the Dataset](Features-of-the-Dataset)
-4. [Dataset](Dataset)
-5. [Discussion of Findings](Discussion-of-Findings)
-6. [Analysis of the Models' Results](Analysis-of-the-Models'-Results)
-7. [Machine Learning Algorithm (SVM) vs Neural Network](Machine-Learning-Algorithm-(SVM)-vs-Neural-Network)
-8. [Error Analysis and Hyperparameter Impact](Error-Analysis-and-Hyperparameter-Impact)
-9. [Critical Analysis of Optimization Techniques](Critical-Analysis-of-Optimization-Techniques)
-10. [Conclusion](Conclusion)
-11. [Running the Notebook and Loading the Best Model](Running-the-Notebook-and-Loading-the-Best-Model)
-12. [References](References)
+1. [Project Overview](#project-verview)
+2. [Problem Statement](#problem-statement)
+3. [Features of the Dataset](#features-of-the-dataset)
+4. [Dataset](#dataset)
+5. [Discussion of Findings](#discussion-of-findings)
+6. [Analysis of the Models' Results](#analysis-of-the-models'-results)
+7. [Machine Learning Algorithm (SVM) vs Neural Network](#machine-learning-algorithm-svm-vs-neural-network)
+8. [Error Analysis and Hyperparameter Impact](#error-analysis-and-hyperparameter-impact)
+9. [Critical Analysis of Optimization Techniques](#critical-analysis-of-optimization-techniques)
+10. [Conclusion](#conclusion)
+11. [Running the Notebook and Loading the Best Model](#running-the-notebook-and-loading-the-best-model)
+12. [References](#references)
 
 ## Project Overview
 This project looks at how to predict the severity of cardiovascular disease (CVD) in Uganda's healthcare system, especially in rural areas where people often have a hard time getting healthcare.The project puts CVD severity into three levels: low-risk, medium-risk, and high-risk.It looks at medical factors as well as other things like local beliefs, how far away healthcare facilities are, and how well patients follow treatment plans. By using machine learning and deep learning models, the goal is to improve early detection, communication between patients and doctors, and the use of healthcare resources across Uganda.
