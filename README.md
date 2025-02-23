@@ -1,16 +1,16 @@
 # Chronic Disease Management System
 ## Table of Contents
-1. [Project Overview](#ProjectOverview)
-2. [Problem Statement](ProblemStatement)
-3. [Features of the Dataset](FeaturesoftheDataset)
+1. [Project Overview](#Project-Overview)
+2. [Problem Statement](Problem-Statement)
+3. [Features of the Dataset](Features-of-the-Dataset)
 4. [Dataset](Dataset)
-5. [Discussion of Findings](DiscussionofFindings)
-6. [Analysis of the Models' Results](AnalysisoftheModels'Results)
-7. [Machine Learning Algorithm (SVM) vs Neural Network](MachineLearningAlgorithm(SVM)vsNeuralNetwork)
-8. [Error Analysis and Hyperparameter Impact](ErrorAnalysisandHyperparameterImpact)
-9. [Critical Analysis of Optimization Techniques](CriticalAnalysisofOptimizationTechniques)
+5. [Discussion of Findings](Discussion-of-Findings)
+6. [Analysis of the Models' Results](Analysis-of-the-Models'-Results)
+7. [Machine Learning Algorithm (SVM) vs Neural Network](Machine-Learning-Algorithm-(SVM)-vs-Neural-Network)
+8. [Error Analysis and Hyperparameter Impact](Error-Analysis-and-Hyperparameter-Impact)
+9. [Critical Analysis of Optimization Techniques](Critical-Analysis-of-Optimization-Techniques)
 10. [Conclusion](Conclusion)
-11. [Running the Notebook and Loading the Best Model](RunningtheNotebookandLoadingtheBestModel)
+11. [Running the Notebook and Loading the Best Model](Running-the-Notebook-and-Loading-the-Best-Model)
 12. [References](References)
 
 ## Project Overview
