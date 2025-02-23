@@ -6,12 +6,13 @@
 4. [Dataset](#dataset)
 5. [Discussion of Findings](#discussion-of-findings)
 6. [Analysis of the Models' Results](#analysis-of-the-models'-results)
-7. [Machine Learning Algorithm (SVM) vs Neural Network](#machine-learning-algorithm-svm-vs-neural-network)
-8. [Error Analysis and Hyperparameter Impact](#error-analysis-and-hyperparameter-impact)
-9. [Critical Analysis of Optimization Techniques](#critical-analysis-of-optimization-techniques)
-10. [Conclusion](#conclusion)
-11. [Running the Notebook and Loading the Best Model](#running-the-notebook-and-loading-the-best-model)
-12. [References](#references)
+7. [Video Submission](#video-submission)
+8. [Machine Learning Algorithm (SVM) vs Neural Network](#machine-learning-algorithm-(svm)-vs-neural-network)
+9. [Error Analysis and Hyperparameter Impact](#error-analysis-and-hyperparameter-impact)
+10. [Critical Analysis of Optimization Techniques](#critical-analysis-of-optimization-techniques)
+11. [Conclusion](#conclusion)
+12. [Running the Notebook and Loading the Best Model](#running-the-notebook-and-loading-the-best-model)
+13. [References](#references)
 
 ## Project Overview
 This project looks at how to predict the severity of cardiovascular disease (CVD) in Uganda's healthcare system, especially in rural areas where people often have a hard time getting healthcare.The project puts CVD severity into three levels: low-risk, medium-risk, and high-risk.It looks at medical factors as well as other things like local beliefs, how far away healthcare facilities are, and how well patients follow treatment plans. By using machine learning and deep learning models, the goal is to improve early detection, communication between patients and doctors, and the use of healthcare resources across Uganda.
@@ -49,12 +50,15 @@ The dataset used in this project consists of both structured and unstructured da
 | **Training Instance** | **Optimizer** | **Regularizer** | **Epochs** | **Early Stopping** | **Number of Layers** | **Learning Rate** | **Accuracy** | **F1 Score** | **Precision** | **Recall** | **Loss** |
 |-----------------------|---------------|-----------------|------------|--------------------|----------------------|-------------------|--------------|--------------|---------------|------------|----------|
 | **Instance 1** | Default | None | 20 | No | 8 | 0.0 | 0.24 | Class(0): 0.00, Class(1): 0.40, Class(2): 0.06 | Class(0): 0.00, Class(1): 0.26, Class(2): 0.07 | Class(0): 0.00, Class(1): 0.91, Class(2): 0.05 | 1.12 |
-| **Instance 2** | Adam | L2 | 150 | Yes | 8 | 0.001 | 0.92 | Class(0): 0.99, Class(1): 0.85, Class(2): 0.77 | Class(0): 0.98, Class(1): 0.85, Class(2): 0.77 | Class(0): 0.99, Class(1): 0.85, Class(2): 0.77 | 0.39 |
-| **Instance 3** | SGD | L2 | 500 | Yes | 8 | 0.006 | 0.91 | Class(0): 0.96, Class(1): 0.81, Class(2): 0.84 | Class(0): 0.93, Class(1): 0.93, Class(2): 0.80 | Class(0): 1.00, Class(1): 0.72, Class(2): 0.90 | 0.49 |
-| **Instance 4** | RMSprop | L2 | 200 | Yes | 8 | 0.001 | 0.97 | Class(0): 1.00, Class(1): 0.95, Class(2): 0.90 | Class(0): 1.00, Class(1): 0.95, Class(2): 0.90 | Class(0): 1.00, Class(1): 0.95, Class(2): 0.89 | 0.12 |
+| **Instance 2** | Adam | L2(0.2) | 150 | Yes | 8 | 0.001 | 0.92 | Class(0): 0.99, Class(1): 0.85, Class(2): 0.77 | Class(0): 0.98, Class(1): 0.85, Class(2): 0.77 | Class(0): 0.99, Class(1): 0.85, Class(2): 0.77 | 0.39 |
+| **Instance 3** | SGD | L2(0.1) | 500 | Yes | 8 | 0.006 | 0.91 | Class(0): 0.96, Class(1): 0.81, Class(2): 0.84 | Class(0): 0.93, Class(1): 0.93, Class(2): 0.80 | Class(0): 1.00, Class(1): 0.72, Class(2): 0.90 | 0.49 |
+| **Instance 4** | RMSprop | L2(0.02) | 200 | Yes | 8 | 0.001 | 0.97 | Class(0): 1.00, Class(1): 0.95, Class(2): 0.90 | Class(0): 1.00, Class(1): 0.95, Class(2): 0.90 | Class(0): 1.00, Class(1): 0.95, Class(2): 0.89 | 0.12 |
 | **Instance 5** | SVM | C Parameter(1.0) | N/A | No | 1 | N/A | 0.94 | Class(0): 1.00, Class(1): 0.88, Class(2): 0.74 | Class(0): 1.00, Class(1): 0.86, Class(2): 0.77 | Class(0): 1.00, Class(1): 0.89, Class(2): 0.71 | 0.12 |
 ## Analysis of the Models' Results
 Performance of different models and configurations was judged by testing a variety of techniques of optimization, machine learning algorithms, and neural network architectures. The main metrics, such as accuracy, F1 score, precision, recall, and loss of every instance, were analyzed. The report shows the analysis of the results.
+### Video Submission
+This is a link to the video explaining the table.
+[Video]()
 ### Summary of Results
 Instance 4, which was defined by the **RMSprop Optimizer**, included L2 regularization, had 7 layers, a learning rate of 0.001, and early stopping, was the one that stood out in the comparison table. This particular installation gave excellent results in many aspects, so it was declared the best performing neural network. Specifically, its accuracy rate is **0.97**, so it is likely that the model correctly predicted 97% of the 100 test samples - instances of the class determinant are truly positive.
 
