@@ -94,14 +94,16 @@ Techniques like Early Stopping, L2 regularization, and optimized learning rates 
 ### Prerequisites
 - Ensure you have a Google account.
 - Access the [Google Colab](GoogleColab) environment.
-- Upload the dataset and the saved best model ```(model4.keras)```.
+- Upload the dataset and the saved best model (```model4.keras```).
 ### Running the Notebook
 1. Open the notebook in Google Colab.
 2. Ensure all necessary dependencies (tensorFlow, scikit-learn, numpy, matplotlib, pandas, joblib) are installed:
-   ```!pip install tensorflow scikit-learn seaborn matplotlib joblib```
-3. Run cells sequentially for data preprocessing, model training, and evaluation.
+   ```python
+   !pip install tensorflow scikit-learn seaborn matplotlib joblib
+   ```
+4. Run cells sequentially for data preprocessing, model training, and evaluation.
 ### Loading the best model
-```
+```python
 from tensorflow.keras.models import load_model
 
 # Load the best saved model
