@@ -58,9 +58,9 @@ The dataset used in this project consists of both structured and unstructured da
 Performance of different models and configurations was judged by testing a variety of techniques of optimization, machine learning algorithms, and neural network architectures. The main metrics, such as accuracy, F1 score, precision, recall, and loss of every instance, were analyzed. The report shows the analysis of the results.
 ### Video Submission
 This is a link to the video explaining the table.
-[Video]()
+[Video](https://drive.google.com/file/d/1hFERc-xa4AOoXNL1UtFDwjNXe_DCqhhD/view?usp=sharing)
 ### Summary of Results
-Instance 4, which was defined by the **RMSprop Optimizer**, included L2 regularization, had 7 layers, a learning rate of 0.001, and early stopping, was the one that stood out in the comparison table. This particular installation gave excellent results in many aspects, so it was declared the best performing neural network. Specifically, its accuracy rate is **0.97**, so it is likely that the model correctly predicted 97% of the 100 test samples - instances of the class determinant are truly positive.
+Instance 4, which was defined by the **RMSprop Optimizer**, included L2 regularization, had 8 layers, a learning rate of 0.001, and early stopping, was the one that stood out in the comparison table. This particular installation gave excellent results in many aspects, so it was declared the best performing neural network. Specifically, its accuracy rate is **0.97**, so it is likely that the model correctly predicted 97% of the 100 test samples - instances of the class determinant are truly positive.
 
 Although the F1 scores were always known to be at the top, the improvement was evident in classes **0**, **1**, and **2**, where the scores were **1.00**, **0.95**, and **0.90**, respectively. Similarly, the objects with a score above 0 also achieved a good score with scores of 1.00, 0.95, and 0.90. This means that the model was very accurate in identifying positive instances in each class. The scores were also impressive, with **class 0** achieving a score of **1.00**, **class 1** scoring **0.95**, and **class 2** receiving **0.89**. These results suggest a strong balance between sensitivity and specificity at the point when the model was finalized.
 
@@ -77,7 +77,7 @@ When comparing the **SVM model (Instance 5)** with the top-performing neural net
 - **Loss**: 0.12
 While the SVM model performed impressively, the neural network (Instance 4) outperformed it, particularly in predicting minority classes, with higher F1-scores and recall values. The SVM's C parameter (1.0) helped balance margin hardness, offering a good trade-off between precision and generalization. However, the neural network’s multi-layer structure allowed it to better capture complex relationships between features, resulting in superior overall performance.
 ### Error Analysis and Hyperparameter Impact
-Instance 1, with the default optimizer, no regularization, only 5 layers, and no early stopping, faced the challenge of significant underfitting, getting the accuracy as low as 0.24 and the loss as high as 1.12. In the absence of the regularization process and due to the relatively small build, the model found it difficult to infer any complex relationships and as a result was worse off.
+Instance 1, with the default optimizer, no regularization, only 8 layers, and no early stopping, faced the challenge of significant underfitting, getting the accuracy as low as 0.24 and the loss as high as 1.12. In the absence of the regularization process and due to the relatively small build, the model found it difficult to infer any complex relationships and as a result was worse off.
 
 Moreover, Instance 2 was able to be drug out of its slump by using, in particular, the Adam optimizer, L2 regularization, and early stopping, along with which the model had superior performance achieving an accuracy of 0.92. Adam’s adaptive learning rate improved the quality of the model globally, and L2 regularization prevented it going astray due to overfitting. However, the F1-score for class 2 (0.77) pointed out that there was likely some space for additional maximizing in predicting minority classes.
 
@@ -119,5 +119,6 @@ print(f"Best Model Accuracy: {accuracy:.2f}")
 ```
 
 ## References
+- [Video Submission](https://drive.google.com/file/d/1hFERc-xa4AOoXNL1UtFDwjNXe_DCqhhD/view?usp=sharing)
 - [Academic literature on Uganda's healthcare challenges and sociocultural factors affecting CVD outcomes](https://link.springer.com/article/10.1186/1744-8603-5-10).
 - [Kaggle: Cardiovascular Disease Dataset](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset)
